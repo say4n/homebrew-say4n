@@ -1,4 +1,4 @@
-# Say4n Say4n
+# homebrew-say4n
 
 ## How do I install these formulae?
 
