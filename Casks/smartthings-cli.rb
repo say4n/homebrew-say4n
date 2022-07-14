@@ -4,7 +4,7 @@ cask "smartthings-cli" do
 
     language
 
-    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%40{version}/smartthings-macos.zip"
+    url "https://github.com/SmartThingsCommunity/smartthings-cli/releases/download/%40smartthings%2Fcli%40#{version}/smartthings-macos.zip"
     name "smartthings-cli"
     desc "Samsung SmartThings CLI"
     homepage "https://github.com/SmartThingsCommunity/smartthings-cli"
