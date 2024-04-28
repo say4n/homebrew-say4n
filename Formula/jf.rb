@@ -1,21 +1,21 @@
 class Jf < Formula
   desc "flatten them json"
   homepage "https://github.com/say4n/jf/"
-  version "0.2.1"
+  version "0.2.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/say4n/jf/releases/download/v0.2.1/jf-aarch64-apple-darwin.tar.gz"
-      sha256 "a120b8f2e4b138f6f2812add722115730b27a4f57319e8acde604c69ef756752"
+      url "https://github.com/say4n/jf/releases/download/v0.2.2/jf-aarch64-apple-darwin.tar.gz"
+      sha256 "10fdb39696989679cea001bd0f013ff337797d0f6a9d99d8fc89ca119fde41b3"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/say4n/jf/releases/download/v0.2.1/jf-x86_64-apple-darwin.tar.gz"
-      sha256 "aa9f9a5f829f55250d961c2a1297fc972d8e984eb00b3af059e9194d30df8b5f"
+      url "https://github.com/say4n/jf/releases/download/v0.2.2/jf-x86_64-apple-darwin.tar.gz"
+      sha256 "830990dbadbbc12dc017b712aa856e3e1bd74755923f914c8a3ee9ca2d08d183"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/say4n/jf/releases/download/v0.2.1/jf-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "49af9402b85e376a77559762b56992b7af2e06b20dc626917f3a9864934dad9d"
+      url "https://github.com/say4n/jf/releases/download/v0.2.2/jf-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "718815a106dc43c1a31c7319f314bdb3fc26f2e667788586624f676e333c29c1"
     end
   end
   license "MIT"
